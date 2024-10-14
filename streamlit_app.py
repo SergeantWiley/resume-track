@@ -4,13 +4,15 @@ from cpu import show_cpu
 from vector_recommend import show_vector
 from lone_neuron import show_neuron
 from neural_val import show_neural_val
+from art import show_art
 # Define the navigation menu
 pages = {
     "Home": show_home,
     "Neural Val": show_neural_val,
     "4x CPU": show_cpu,
     "Vector Recommend": show_vector,
-    "Lone Neuron": show_neuron
+    "Lone Neuron": show_neuron,
+    "Graphic Art": show_art
 }
 
 # Sidebar for navigation

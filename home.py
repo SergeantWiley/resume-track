@@ -8,7 +8,7 @@ def show_home():
     I currently teach modern technology and programming to young students at The Coder School.''')
     
     st.markdown("**Connect with me:**")
-    st.markdown("[LinkedIn](https://www.linkedin.com/in/sj-lid/) | [GitHub](https://github.com/SergeantWiley/) | [Email](mailto:steven@example.com)")
+    st.markdown("[LinkedIn](https://www.linkedin.com/in/sj-lid/) | [GitHub](https://github.com/SergeantWiley/) | [Email](workq101@gmail.com)")
     
     st.subheader("About Me")
     st.write('''
@@ -21,6 +21,8 @@ def show_home():
     - **2021**: Discovered my passion for Data Science, extensively studying internet traffic and honing my Python skills.
     - **2022**: Joined Aramark, where I developed projects like NOCAP and STARS.
     - **2023**: Transitioned to full-time skill development, culminating in my completion of Coding Temple and a newfound passion for teaching.
+    - **2024**: Joined theCoderSchool where I supervise and direct Camps, manage students progress, and assist in game development
+    
     
     Over the past eight years, I’ve built a foundation of knowledge and experience that I’m eager to share with others, helping them avoid the pitfalls I encountered along the way.
     ''')
