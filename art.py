@@ -2,15 +2,21 @@ import streamlit as st
 from PIL import Image
 
 def show_art():
+
     st.title("My Artwork")
     st.subheader("A collection of my greatest pieces")
 
-    # First Artwork
-    st.header("Venator Star Destroyer")
-    st.write("A Venator Class Star Destroyer from the iconic Star Wars The Clone Wars series")
+    st.header("Killjoy Patent")
+    st.write("Front page of the theoretical patent")
     
-    sculpture_image = Image.open("VenatorClass.png")  # Replace with your actual file path
-    st.image(sculpture_image, caption="Venator Class Destroyer", width=500)
+    patent = Image.open("KJ Turrent Patent Front Page.png")
+    st.image(patent, caption="Model data mined from VALORANT", width=500)
+
+    st.header("Radainite Core")
+    st.write("Engineering Schematic")
+    
+    patent = Image.open("Core Engineering Schematic.png")
+    st.image(patent, caption="Kingdom first engineering concept designf", width=500)
 
     # Second Artwork (Video Example)
     st.header("F-35 Perfect Loop Animation")
@@ -27,6 +33,6 @@ def show_art():
 
     # Fourth Artwork (Another Video Example)
     st.header("Spike Planted")
-    st.write("The Spike is a dangourse high grade explosive designed by Kingdom in the VALORANT Lore.")
+    st.write("The Spike is a dangourse high grade explosive designed by Kingdom Industries in the VALORANT Lore.")
     
     st.video("spike.mp4")  # Replace with your actual file path

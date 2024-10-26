@@ -8,11 +8,12 @@ from art import show_art
 # Define the navigation menu
 pages = {
     "Home": show_home,
+    "Graphic Art": show_art,
     "Neural Val": show_neural_val,
     "4x CPU": show_cpu,
     "Vector Recommend": show_vector,
     "Lone Neuron": show_neuron,
-    "Graphic Art": show_art
+    
 }
 
 # Sidebar for navigation
